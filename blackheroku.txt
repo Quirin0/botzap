@@ -1,0 +1,102 @@
+//  𝐔𝐏𝐀𝐍𝐃𝐎 𝐍𝐎 𝐇𝐄𝐑𝐎𝐊𝐔  \\
+
+HིEིRིOིKིUི     // HEROKU 
+
+1° Crie Uma Conta 
+2° Crie Um App 
+3° Vai na engrenagem 
+4° Add buildpack 
+5° Node Js
+
+dps.....
+
+colocar esses 3 link :
+
+https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest
+
+
+https://github.com/clhuang/heroku-buildpack-webp-binaries.git
+
+
+https://github.com/pathwaysmedical/heroku-buildpack-tesseract
+
+------------------------------------------------------------
+
+TིEིRིMིUིXི        // TERMUX
+
+1° PིAིSིSིOི :      // 1° PASSO :
+
+
+- termux-setup-storage          <~ 1°
+
+cd /localizacao da blackbase      <~ 2°
+
+
+2° PིAིSིSིOི :      // 2° PASSO :
+
+
+- bash heroku.sh            <~ 1°
+
+- npm i -g npm@6 && npm i heroku -g         <~ 2°
+
+
+3° PིAིSིSིOི :     // 3° PASSO :
+
+
+- heroku Login    <~ 1°
+
+- bash up.sh        <~ 2°
++altere o arquivo up.sh na base
+
+4° PིAིSིSིOི       // 4° PASSO :
+
+
+- rm -rf .git          <~ 1°
+
+- git init          <~ 2°
+
+
+5° PིAིSིSིOི :     // 5° PASSO :
+
+
+- heroku git:remote -a nome-do-APP 
+
+- git add . 
+
+
+6° PིAིSིSིOི :     // 6° PASSO :
+   
+- git commit -am "nome para atualizar"     <~ 1°
++ O nome pra att é aq está no arquivo up.sh na base
+- git push heroku master            <~ 2°
+
+
+HིEིRིOིKིUི :         // HEROKU :
+
+
+Agora pra ligar é simples, vai no site novamente, de início, abaixo do botão 
+
+OPEN APP segunda opção, vai na opção de ligar, tem um lápis pequeno, clica 
+
+Liga o botão, e aperta confirmar 
+
+E pronto, boa sorte, caso não esteja funcionando, você editou algo errado no bot, consequentemente, ele não funcionará.
+
+
+------------------------------------------------------------
+
+Se quiser atualizar o bot para o site, se você efetuou alguma edição, são simples mente esses comandos 
+
+
+ cd /PASTA DA BLACKBASE
+
+ git add . 
+
+ git commit -am "Nome Pra Atualizar" 
+
+ git push heroku master
+
+------------------------------------------------------------
+
+
+

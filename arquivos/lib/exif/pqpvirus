@@ -1,0 +1,92 @@
+╔═══°࿊•°:🔥 - 🔥:°•࿊°═══╗ 
+✯                 𝑽𝑳-𝑩𝑶𝑻                  ✯
+╚═══°࿊•°:🔥 - 🔥:°•࿊°═══╝
+╔═══°࿊•°:🔥 - 🔥:°•࿊°═══╗
+    ESSAS SÃO AS MINHAS OPÇÕES:
+
+GRUPO OFICIAL: https://chat.whatsapp.com/IAg8LmnRjuE4dfBNrlJV8t
+
+๖ۣۜ𝐎𝐩𝐜𝐨𝐞𝐬 𝐝𝐨 𝐠𝐫𝐮𝐩𝐨 𝐨𝐟𝐢𝐜𝐢𝐚𝐥
+
+  .regras
+  .gplink
+
+━━━━━━━━━━━━━━━━━
+𝐌𝐞𝐧𝐮 𝐯𝐢𝐩
+
+EM BREVE❗
+
+━━━━━━━━━━━━━━━━━
+𝑨𝑫𝑴𝑰𝑵𝑺
+
+  .grupo abrir/fechar
+  .link on/off
+  .marcar
+  .bemvindo (manutenção)
+  
+━━━━━━━━━━━━━━━━━
+𝑭𝑰𝑮𝑼𝑹𝑰𝑵𝑯𝑨𝑺
+
+  .f
+  .toimg
+  .attp (texto)
+  
+━━━━━━━━━━━━━━━━━
+𝑪𝑴𝑫𝑺 𝑺𝑬𝑴 𝑷𝑹𝑬𝑭𝑰𝑿𝑶 
+
+  oi, ola, yae, iae, oie,
+  tudo bem?, td bm?, como vai?, como esta?, como voce está?
+  bom dia, boa tarde, boa noite
+
+━━━━━━━━━━━━━━━━━
+𝑫𝑶𝑵𝑶
+
+  .rename
+  .aviso
+  .setprefix
+  .bc
+  .bcgp
+  .gpsair (link)
+  .entrar (link)
+
+╚═══°࿊•°:🔥 - 🔥:°•࿊°═══╝
+
+
+
+
+
+case "pee":
+if (args.length < 1) return reply(`Você deve digitar ${prefix}pee espada, ${prefix}pee pistola ou ${prefix}pee escudo`)
+ppt = ["espada", "pistola", "escudo"]
+ppy = ppt[Math.floor(Math.random() * ppt.length)]
+ppg = Math.floor(Math.random() * 1) + 10
+pptb = ppy
+if ((pptb == "espada" && args == "pistola") ||
+(pptb == "pistola" && args == "escudo") ||
+(pptb == "escudo" && args == "espada")) {
+var vit = "vitoria"
+} else if ((pptb == "espada" && args == "escudo") ||
+(pptb == "pistola" && args == "espada") ||
+(pptb == "escudo" && args == "pistola")) {
+var vit = "derrota"
+} else if ((pptb == "espada" && args == "espada") ||
+(pptb == "pistola" && args == "pistola") ||
+(pptb == "escudo" && args == "escudo")) {
+var vit = "empate"
+} else if (vit = "undefined") {
+return reply(`Você deve digitar ${prefix}ppt espada, ${prefix}ppt pistola ou ${prefix}ppt escudo`)
+}
+if (vit == "vitoria") {
+var tes = "Vitória do jogador"
+}
+if (vit == "derrota") {
+var tes = "A vitória é do BOT"
+}
+if (vit == "empate") {
+var tes = "O jogo terminou em empate"
+}
+reply(`${NomeDoBot} jogou: ${pptb}\nO jogador jogou: ${args}\n\n${tes}`)
+if (tes == "Vitória do jogador") {
+reply(pph)
+}
+break
